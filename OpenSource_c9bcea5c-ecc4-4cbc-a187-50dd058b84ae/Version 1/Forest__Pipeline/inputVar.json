@@ -1,0 +1,170 @@
+[
+  {
+    "level": "interval",
+    "name": "AGE",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "BILL_AMT1",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "BILL_AMT2",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "BILL_AMT3",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "BILL_AMT4",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "BILL_AMT5",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "BILL_AMT6",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "EDUCATION",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "ID",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "LIMIT_BAL",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "MARRIAGE",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "PAY_0",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "PAY_2",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "PAY_3",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "PAY_4",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "PAY_5",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "PAY_6",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "PAY_AMT1",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "PAY_AMT2",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "PAY_AMT3",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "PAY_AMT4",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "PAY_AMT5",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "PAY_AMT6",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "binary",
+    "name": "SEX",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  }
+]
