@@ -1,0 +1,253 @@
+{
+  "creationTimeStamp" : "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp" : "0001-01-01T00:00:00Z",
+  "revision" : 0,
+  "name" : "dmcas_fitstat",
+  "version" : 0,
+  "order" : 0,
+  "parameterMap" : {
+    "_ASE_" : {
+      "label" : "Average Squared Error",
+      "length" : 8,
+      "order" : 6,
+      "parameter" : "_ASE_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_ASE_" ]
+    },
+    "_C_" : {
+      "label" : "Area Under ROC",
+      "length" : 8,
+      "order" : 12,
+      "parameter" : "_C_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_C_" ]
+    },
+    "_DIV_" : {
+      "label" : "Divisor for ASE",
+      "length" : 8,
+      "order" : 7,
+      "parameter" : "_DIV_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_DIV_" ]
+    },
+    "_DataRole_" : {
+      "label" : "Data Role",
+      "length" : 10,
+      "order" : 2,
+      "parameter" : "_DataRole_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_DataRole_" ]
+    },
+    "_GAMMA_" : {
+      "label" : "Gamma",
+      "length" : 8,
+      "order" : 14,
+      "parameter" : "_GAMMA_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_GAMMA_" ]
+    },
+    "_GINI_" : {
+      "label" : "Gini Coefficient",
+      "length" : 8,
+      "order" : 13,
+      "parameter" : "_GINI_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_GINI_" ]
+    },
+    "_KSCut_" : {
+      "label" : "KS Cutoff",
+      "length" : 8,
+      "order" : 16,
+      "parameter" : "_KSCut_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_KSCut_" ]
+    },
+    "_KSPostCutoff_" : {
+      "label" : "KS at User-Specified Cutoff",
+      "length" : 8,
+      "order" : 17,
+      "parameter" : "_KSPostCutoff_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_KSPostCutoff_" ]
+    },
+    "_KS_" : {
+      "label" : "KS (Youden)",
+      "length" : 8,
+      "order" : 11,
+      "parameter" : "_KS_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_KS_" ]
+    },
+    "_MCE_" : {
+      "label" : "Misclassification Rate",
+      "length" : 8,
+      "order" : 9,
+      "parameter" : "_MCE_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_MCE_" ]
+    },
+    "_MCLL_" : {
+      "label" : "Multi-Class Log Loss",
+      "length" : 8,
+      "order" : 10,
+      "parameter" : "_MCLL_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_MCLL_" ]
+    },
+    "_NObs_" : {
+      "label" : "Sum of Frequencies",
+      "length" : 8,
+      "order" : 5,
+      "parameter" : "_NObs_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_NObs_" ]
+    },
+    "_PartInd_" : {
+      "label" : "Partition Indicator",
+      "length" : 8,
+      "order" : 3,
+      "parameter" : "_PartInd_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_PartInd_" ]
+    },
+    "_RASE_" : {
+      "label" : "Root Average Squared Error",
+      "length" : 8,
+      "order" : 8,
+      "parameter" : "_RASE_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_RASE_" ]
+    },
+    "_TAU_" : {
+      "label" : "Tau",
+      "length" : 8,
+      "order" : 15,
+      "parameter" : "_TAU_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_TAU_" ]
+    },
+    "_TargetName_" : {
+      "label" : "Target Name",
+      "length" : 18,
+      "order" : 1,
+      "parameter" : "_TargetName_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_TargetName_" ]
+    },
+    "_formattedPartition_" : {
+      "label" : "Formatted Partition",
+      "length" : 12,
+      "order" : 4,
+      "parameter" : "_formattedPartition_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_formattedPartition_" ]
+    },
+    "_miscEvent_" : {
+      "label" : "Misclassification Rate (Event)",
+      "length" : 8,
+      "order" : 19,
+      "parameter" : "_miscEvent_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_miscEvent_" ]
+    },
+    "_miscKs_" : {
+      "label" : "Misclassification Rate at KS Cutoff (Event)",
+      "length" : 8,
+      "order" : 18,
+      "parameter" : "_miscKs_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_miscKs_" ]
+    }
+  },
+  "data" : [ {
+    "dataMap" : {
+      "_ASE_" : "0.137611834718",
+      "_C_" : "0.760730421687",
+      "_DIV_" : "3000",
+      "_DataRole_" : "TEST",
+      "_GAMMA_" : "0.534894025064",
+      "_GINI_" : "0.521460843373",
+      "_KSCut_" : "0.21",
+      "_KSPostCutoff_" : "0.2906729658",
+      "_KS_" : "0.421630013203",
+      "_MCE_" : "0.181333333333",
+      "_MCLL_" : "0.439122602801",
+      "_NObs_" : "3000",
+      "_PartInd_" : "2",
+      "_RASE_" : "0.370960691608",
+      "_TAU_" : "0.179802156274",
+      "_TargetName_" : "default_next_month",
+      "_formattedPartition_" : "           2",
+      "_miscEvent_" : "0.1813333333",
+      "_miscKs_" : "0.238"
+    },
+    "rowNumber" : 1
+  }, {
+    "dataMap" : {
+      "_ASE_" : "0.119093024692",
+      "_C_" : "0.83631246029",
+      "_DIV_" : "18000",
+      "_DataRole_" : "TRAIN",
+      "_GAMMA_" : "0.68540543829",
+      "_GINI_" : "0.67262492058",
+      "_KSCut_" : "0.19",
+      "_KSPostCutoff_" : "0.3705134699",
+      "_KS_" : "0.506077955459",
+      "_MCE_" : "0.159111111111",
+      "_MCLL_" : "0.388123804787",
+      "_NObs_" : "18000",
+      "_PartInd_" : "1",
+      "_RASE_" : "0.345098572428",
+      "_TAU_" : "0.231734812428",
+      "_TargetName_" : "default_next_month",
+      "_formattedPartition_" : "           1",
+      "_miscEvent_" : "0.1591111111",
+      "_miscKs_" : "0.2392777778"
+    },
+    "rowNumber" : 2
+  }, {
+    "dataMap" : {
+      "_ASE_" : "0.134128775593",
+      "_C_" : "0.783078640585",
+      "_DIV_" : "9000",
+      "_DataRole_" : "VALIDATE",
+      "_GAMMA_" : "0.579870136399",
+      "_GINI_" : "0.566157281171",
+      "_KSCut_" : "0.22",
+      "_KSPostCutoff_" : "0.3126043942",
+      "_KS_" : "0.428743155012",
+      "_MCE_" : "0.178",
+      "_MCLL_" : "0.428046735152",
+      "_NObs_" : "9000",
+      "_PartInd_" : "0",
+      "_RASE_" : "0.366235956172",
+      "_TAU_" : "0.195100171624",
+      "_TargetName_" : "default_next_month",
+      "_formattedPartition_" : "           0",
+      "_miscEvent_" : "0.178",
+      "_miscKs_" : "0.2323333333"
+    },
+    "rowNumber" : 3
+  } ],
+  "xInteger" : false,
+  "yInteger" : false
+}
