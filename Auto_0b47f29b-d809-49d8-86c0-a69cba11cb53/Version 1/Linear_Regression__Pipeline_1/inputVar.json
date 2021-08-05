@@ -1,0 +1,9 @@
+[
+  {
+    "level": "nominal",
+    "name": "VIN",
+    "length": 17,
+    "description": "",
+    "type": "string"
+  }
+]

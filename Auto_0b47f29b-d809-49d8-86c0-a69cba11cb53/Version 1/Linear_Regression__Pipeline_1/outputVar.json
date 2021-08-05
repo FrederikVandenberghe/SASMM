@@ -1,0 +1,16 @@
+[
+  {
+    "level": "",
+    "name": "EM_PREDICTION",
+    "length": 8,
+    "description": "Predicted: BlueBookPrice",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "P_BlueBookPrice",
+    "length": 8,
+    "description": "Predicted: BlueBookPrice",
+    "type": "decimal"
+  }
+]

@@ -1,0 +1,274 @@
+{
+  "creationTimeStamp" : null,
+  "modifiedTimeStamp" : null,
+  "createdBy" : null,
+  "modifiedBy" : null,
+  "version" : 2,
+  "name" : "Linear Regression (Pipeline 1)",
+  "modeler" : "Frederik.Vandenberghe@sas.com",
+  "function" : "prediction",
+  "algorithm" : "linearreg",
+  "tool" : "Model Studio",
+  "toolVersion" : "V2021.1.2",
+  "scoreCodeType" : null,
+  "scoreCodeFile" : null,
+  "scoreCodeUri" : null,
+  "trainCodeType" : null,
+  "trainCodeFile" : null,
+  "trainCodeUri" : null,
+  "targetEvent" : "",
+  "sourceUri" : {
+    "name" : "Linear Regression",
+    "uri" : "/analyticsComponents/components/c351f01f-b2b6-48e0-a82c-0f8d686ff9ec",
+    "uriType" : "reference",
+    "mediaType" : "application/vnd.sas.analytics.component",
+    "contentType" : null
+  },
+  "sourceName" : null,
+  "candidateChampion" : true,
+  "nondeterministic" : false,
+  "datasourceUri" : {
+    "name" : "AUTOAUCTIONINPUT",
+    "uri" : "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/AUTOAUCTIONINPUT",
+    "uriType" : "reference",
+    "mediaType" : null,
+    "contentType" : null
+  },
+  "datasourceNotes" : null,
+  "principalID" : null,
+  "externalModelId" : "c351f01f-b2b6-48e0-a82c-0f8d686ff9ec",
+  "trainTableSummaryFile" : null,
+  "trainTableSummaryUri" : null,
+  "fitStatFile" : null,
+  "fitStatUri" : {
+    "name" : "dmcas_fitstat",
+    "uri" : "/files/files/7a6a40d5-be08-46ef-a69e-50535da1d24b",
+    "uriType" : "child",
+    "mediaType" : "application/vnd.sas.analytics.report+json",
+    "contentType" : null
+  },
+  "sasOptions" : "options VALIDMEMNAME=EXTEND VALIDVARNAME=ANY;\n",
+  "partitionLevels" : [ {
+    "variableName" : "_PartInd_",
+    "dataRole" : "train",
+    "type" : "partition",
+    "value" : "           1"
+  }, {
+    "variableName" : "_PartInd_",
+    "dataRole" : "validate",
+    "type" : "partition",
+    "value" : "           0"
+  }, {
+    "variableName" : "_PartInd_",
+    "dataRole" : "test",
+    "type" : "partition",
+    "value" : "           2"
+  } ],
+  "eventLevels" : [ ],
+  "interactions" : [ ],
+  "modelTransformation" : {
+    "inputVariables" : [ {
+      "name" : "VIN",
+      "role" : "input",
+      "type" : "string",
+      "level" : "nominal",
+      "label" : "",
+      "length" : 17,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    } ],
+    "outputVariables" : [ {
+      "name" : "EM_PREDICTION",
+      "role" : "prediction",
+      "type" : "numeric",
+      "level" : null,
+      "label" : "Predicted: BlueBookPrice",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "P_BlueBookPrice",
+      "role" : "prediction",
+      "type" : "numeric",
+      "level" : null,
+      "label" : "Predicted: BlueBookPrice",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    } ],
+    "steps" : [ {
+      "sequence" : 1,
+      "type" : "ds1",
+      "code" : null,
+      "uri" : null,
+      "stepUri" : {
+        "name" : "score.sas",
+        "uri" : "/files/files/c815d9d3-4750-4ec4-a75b-b780599ba921",
+        "uriType" : "child",
+        "mediaType" : null,
+        "contentType" : "ds1"
+      },
+      "inputVariables" : [ ],
+      "outputVariables" : [ ]
+    } ]
+  },
+  "transformations" : [ ],
+  "trainInputs" : [ {
+    "name" : "CurrentBid",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "Miles",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "OriginalInvoice",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "OriginalMSRP",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "Make",
+    "role" : "input",
+    "type" : "string",
+    "level" : "nominal",
+    "label" : "",
+    "length" : 20,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "Model",
+    "role" : "input",
+    "type" : "string",
+    "level" : "nominal",
+    "label" : "",
+    "length" : 20,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "state",
+    "role" : "input",
+    "type" : "string",
+    "level" : "nominal",
+    "label" : "",
+    "length" : 2,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "VIN",
+    "role" : "input",
+    "type" : "string",
+    "level" : "nominal",
+    "label" : "",
+    "length" : 17,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "Year",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "nominal",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "_PartInd_",
+    "role" : "partition",
+    "type" : "numeric",
+    "level" : "nominal",
+    "label" : "_PartInd_",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : null,
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "BlueBookPrice",
+    "role" : "target",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "_dmIndex_",
+    "role" : "key",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : null,
+    "length" : 8,
+    "aggregation" : null,
+    "format" : null,
+    "transformationVariable" : true,
+    "transformation" : null
+  } ],
+  "modelNodeProperties" : [ {
+    "sequence" : 1,
+    "actionName" : "regression.glm",
+    "content" : "{\n \"class\":   \n  [\n   {\n    \"vars\": [ \"Make\", \"Model\", \"state\", \"VIN\", \"Year\" ]\n   }  \n  ],\n \"code\":\n  {\n   \"comment\": false,\n   \"fmtWdth\": 20,\n   \"indentSize\": 3,\n   \"labelId\": 46956035,\n   \"lineSize\": 120,\n   \"noTrim\": false,\n   \"tabForm\": true\n  },\n \"model\":\n  {\n   \"depVars\":     \n    [\n     {\n      \"name\": \"BlueBookPrice\"\n     }    \n    ],\n   \"effects\":     \n    [\n     {\n      \"vars\": [ \"CurrentBid\", \"Miles\", \"OriginalInvoice\", \"OriginalMSRP\", \"Make\", \"Model\", \"state\", \"VIN\", \"Year\" ]\n     }    \n    ],\n   \"vif\": true\n  },\n \"partByVar\":\n  {\n   \"name\": \"_PartInd_\",\n   \"test\": \"2\",\n   \"train\": \"1\",\n   \"validate\": \"0\"\n  },\n \"selection\":\n  {\n   \"choose\": \"SBC\",\n   \"hierarchy\": \"NONE\",\n   \"method\": \"STEPWISE\",\n   \"select\": \"SBC\",\n   \"slEntry\": 0.05,\n   \"slStay\": 0.05,\n   \"stop\": \"SBC\"\n  },\n \"table\":\n  {\n   \"name\": \"DM_18PS43D3TLQ21SOPXHFMV3DRR\"\n  }\n}",
+    "contentUri" : null,
+    "modelTableUri" : null
+  } ],
+  "dataPlanUri" : null,
+  "dataPlanSnapShot" : null,
+  "rocDataUri" : null,
+  "liftDataUri" : {
+    "name" : "dmcas_lift",
+    "uri" : "/files/files/2386d0a1-2c78-4de1-ba68-75b86bef074d",
+    "uriType" : "child",
+    "mediaType" : "application/vnd.sas.analytics.report+json",
+    "contentType" : null
+  },
+  "dataUris" : null,
+  "textLanguage" : null
+}

@@ -1,0 +1,427 @@
+{
+  "creationTimeStamp" : "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp" : "0001-01-01T00:00:00Z",
+  "revision" : 0,
+  "name" : "dmcas_lift",
+  "version" : 0,
+  "order" : 0,
+  "parameterMap" : {
+    "_Column_" : {
+      "label" : "Analysis Variable",
+      "length" : 15,
+      "order" : 5,
+      "parameter" : "_Column_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_Column_" ]
+    },
+    "_DataRole_" : {
+      "label" : "Data Role",
+      "length" : 10,
+      "order" : 2,
+      "parameter" : "_DataRole_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_DataRole_" ]
+    },
+    "_Depth_" : {
+      "label" : "Depth",
+      "length" : 8,
+      "order" : 6,
+      "parameter" : "_Depth_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_Depth_" ]
+    },
+    "_MaxP_" : {
+      "label" : "Predicted Maximum",
+      "length" : 8,
+      "order" : 11,
+      "parameter" : "_MaxP_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_MaxP_" ]
+    },
+    "_MaxT_" : {
+      "label" : "Target Maximum",
+      "length" : 8,
+      "order" : 14,
+      "parameter" : "_MaxT_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_MaxT_" ]
+    },
+    "_MeanP_" : {
+      "label" : "Predicted Mean",
+      "length" : 8,
+      "order" : 9,
+      "parameter" : "_MeanP_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_MeanP_" ]
+    },
+    "_MeanT_" : {
+      "label" : "Target Mean",
+      "length" : 8,
+      "order" : 12,
+      "parameter" : "_MeanT_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_MeanT_" ]
+    },
+    "_MinP_" : {
+      "label" : "Predicted Minimum",
+      "length" : 8,
+      "order" : 10,
+      "parameter" : "_MinP_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_MinP_" ]
+    },
+    "_MinT_" : {
+      "label" : "Target Minimum",
+      "length" : 8,
+      "order" : 13,
+      "parameter" : "_MinT_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_MinT_" ]
+    },
+    "_NObs_" : {
+      "label" : "Sum of Frequencies",
+      "length" : 8,
+      "order" : 8,
+      "parameter" : "_NObs_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_NObs_" ]
+    },
+    "_PartInd_" : {
+      "label" : "Partition Indicator",
+      "length" : 8,
+      "order" : 3,
+      "parameter" : "_PartInd_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_PartInd_" ]
+    },
+    "_TargetName_" : {
+      "label" : "Target Name",
+      "length" : 13,
+      "order" : 1,
+      "parameter" : "_TargetName_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_TargetName_" ]
+    },
+    "_Value_" : {
+      "label" : "Value",
+      "length" : 8,
+      "order" : 7,
+      "parameter" : "_Value_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_Value_" ]
+    },
+    "_formattedPartition_" : {
+      "label" : "Formatted Partition",
+      "length" : 12,
+      "order" : 4,
+      "parameter" : "_formattedPartition_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_formattedPartition_" ]
+    }
+  },
+  "data" : [ {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "VALIDATE",
+      "_Depth_" : "0",
+      "_NObs_" : "0",
+      "_PartInd_" : "0",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "0",
+      "_formattedPartition_" : "           0"
+    },
+    "rowNumber" : 1
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "VALIDATE",
+      "_Depth_" : "25",
+      "_MaxP_" : "8000",
+      "_MaxT_" : "10000",
+      "_MeanP_" : "8000",
+      "_MeanT_" : "9250",
+      "_MinP_" : "8000",
+      "_MinT_" : "8000",
+      "_NObs_" : "1",
+      "_PartInd_" : "0",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "8000",
+      "_formattedPartition_" : "           0"
+    },
+    "rowNumber" : 2
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "VALIDATE",
+      "_Depth_" : "50",
+      "_MaxP_" : "8000",
+      "_MaxT_" : "10000",
+      "_MeanP_" : "8000",
+      "_MeanT_" : "9250",
+      "_MinP_" : "8000",
+      "_MinT_" : "8000",
+      "_NObs_" : "1",
+      "_PartInd_" : "0",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "8000",
+      "_formattedPartition_" : "           0"
+    },
+    "rowNumber" : 3
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "VALIDATE",
+      "_Depth_" : "75",
+      "_MaxP_" : "8000",
+      "_MaxT_" : "10000",
+      "_MeanP_" : "8000",
+      "_MeanT_" : "9250",
+      "_MinP_" : "8000",
+      "_MinT_" : "8000",
+      "_NObs_" : "1",
+      "_PartInd_" : "0",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "8000",
+      "_formattedPartition_" : "           0"
+    },
+    "rowNumber" : 4
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "VALIDATE",
+      "_Depth_" : "100",
+      "_MaxP_" : "8000",
+      "_MaxT_" : "10000",
+      "_MeanP_" : "8000",
+      "_MeanT_" : "9250",
+      "_MinP_" : "8000",
+      "_MinT_" : "8000",
+      "_NObs_" : "1",
+      "_PartInd_" : "0",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "8000",
+      "_formattedPartition_" : "           0"
+    },
+    "rowNumber" : 5
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "0",
+      "_NObs_" : "0",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "0",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 6
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "11.1111111111",
+      "_MaxP_" : "80000",
+      "_MaxT_" : "80000",
+      "_MeanP_" : "80000",
+      "_MeanT_" : "80000",
+      "_MinP_" : "80000",
+      "_MinT_" : "80000",
+      "_NObs_" : "1",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "80000",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 7
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "22.2222222222",
+      "_MaxP_" : "40000",
+      "_MaxT_" : "40000",
+      "_MeanP_" : "40000",
+      "_MeanT_" : "40000",
+      "_MinP_" : "40000",
+      "_MinT_" : "40000",
+      "_NObs_" : "1",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "40000",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 8
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "33.3333333333",
+      "_MaxP_" : "35000",
+      "_MaxT_" : "35000",
+      "_MeanP_" : "35000",
+      "_MeanT_" : "35000",
+      "_MinP_" : "35000",
+      "_MinT_" : "35000",
+      "_NObs_" : "1",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "35000",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 9
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "44.4444444444",
+      "_MaxP_" : "28000",
+      "_MaxT_" : "28000",
+      "_MeanP_" : "28000",
+      "_MeanT_" : "28000",
+      "_MinP_" : "28000",
+      "_MinT_" : "28000",
+      "_NObs_" : "1",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "28000",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 10
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "55.5555555556",
+      "_MaxP_" : "12000",
+      "_MaxT_" : "12000",
+      "_MeanP_" : "12000",
+      "_MeanT_" : "12000",
+      "_MinP_" : "12000",
+      "_MinT_" : "12000",
+      "_NObs_" : "1",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "12000",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 11
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "66.6666666667",
+      "_MaxP_" : "12000",
+      "_MaxT_" : "12000",
+      "_MeanP_" : "12000",
+      "_MeanT_" : "12000",
+      "_MinP_" : "12000",
+      "_MinT_" : "12000",
+      "_NObs_" : "1",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "12000",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 12
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "77.7777777778",
+      "_MaxP_" : "8000",
+      "_MaxT_" : "8000",
+      "_MeanP_" : "8000",
+      "_MeanT_" : "8000",
+      "_MinP_" : "8000",
+      "_MinT_" : "8000",
+      "_NObs_" : "1",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "8000",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 13
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "88.8888888889",
+      "_MaxP_" : "8000",
+      "_MaxT_" : "8000",
+      "_MeanP_" : "8000",
+      "_MeanT_" : "8000",
+      "_MinP_" : "8000",
+      "_MinT_" : "8000",
+      "_NObs_" : "1",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "8000",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 14
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TRAIN",
+      "_Depth_" : "100",
+      "_MaxP_" : "5000",
+      "_MaxT_" : "5000",
+      "_MeanP_" : "5000",
+      "_MeanT_" : "5000",
+      "_MinP_" : "5000",
+      "_MinT_" : "5000",
+      "_NObs_" : "1",
+      "_PartInd_" : "1",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "5000",
+      "_formattedPartition_" : "           1"
+    },
+    "rowNumber" : 15
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TEST",
+      "_Depth_" : "0",
+      "_NObs_" : "0",
+      "_PartInd_" : "2",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "0",
+      "_formattedPartition_" : "           2"
+    },
+    "rowNumber" : 16
+  }, {
+    "dataMap" : {
+      "_Column_" : "P_BlueBookPrice",
+      "_DataRole_" : "TEST",
+      "_Depth_" : "100",
+      "_MaxP_" : "8000",
+      "_MaxT_" : "45000",
+      "_MeanP_" : "8000",
+      "_MeanT_" : "45000",
+      "_MinP_" : "8000",
+      "_MinT_" : "45000",
+      "_NObs_" : "1",
+      "_PartInd_" : "2",
+      "_TargetName_" : "BlueBookPrice",
+      "_Value_" : "8000",
+      "_formattedPartition_" : "           2"
+    },
+    "rowNumber" : 17
+  } ],
+  "xInteger" : false,
+  "yInteger" : false
+}

@@ -1,0 +1,28 @@
+{
+  "SASJSONExport" : "1.0 FMTCHARACTER",
+  "SASTableData+ARGUMENTS" : [ {
+    "name" : "VIN",
+    "order" : 1,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 17
+  }, {
+    "name" : "EM_PREDICTION",
+    "order" : 2,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "P_BlueBookPrice",
+    "order" : 3,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  } ]
+}

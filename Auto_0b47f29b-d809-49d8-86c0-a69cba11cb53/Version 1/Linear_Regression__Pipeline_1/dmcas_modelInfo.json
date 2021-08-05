@@ -1,0 +1,7 @@
+{
+  "scoreType" : "DS1",
+  "algorithm" : "Linear Regression",
+  "algorithmI18N" : "linear.regression.node.name.txt",
+  "enableRegistration" : "true",
+  "enableScoring" : "true"
+}
