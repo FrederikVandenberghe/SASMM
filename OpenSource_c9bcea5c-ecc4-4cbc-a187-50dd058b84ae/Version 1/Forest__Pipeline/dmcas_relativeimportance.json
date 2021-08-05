@@ -1,0 +1,265 @@
+{
+  "creationTimeStamp" : "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp" : "0001-01-01T00:00:00Z",
+  "revision" : 0,
+  "name" : "dmcas_relativeimportance",
+  "version" : 0,
+  "order" : 0,
+  "parameterMap" : {
+    "LABEL" : {
+      "label" : "Variable Label",
+      "length" : 256,
+      "order" : 1,
+      "parameter" : "LABEL",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "LABEL" ]
+    },
+    "LEVEL" : {
+      "label" : "Variable Level",
+      "length" : 10,
+      "order" : 5,
+      "parameter" : "LEVEL",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "LEVEL" ]
+    },
+    "ROLE" : {
+      "label" : "Role",
+      "length" : 32,
+      "order" : 4,
+      "parameter" : "ROLE",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "ROLE" ]
+    },
+    "RelativeImportance" : {
+      "label" : "Relative Importance",
+      "length" : 8,
+      "order" : 3,
+      "parameter" : "RelativeImportance",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "RelativeImportance" ]
+    },
+    "Variable" : {
+      "label" : "Variable Name",
+      "length" : 255,
+      "order" : 2,
+      "parameter" : "Variable",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "Variable" ]
+    }
+  },
+  "data" : [ {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "1",
+      "Variable" : "PAY_0"
+    },
+    "rowNumber" : 1
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.503216514516",
+      "Variable" : "PAY_2"
+    },
+    "rowNumber" : 2
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.346213189826",
+      "Variable" : "PAY_3"
+    },
+    "rowNumber" : 3
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.301687008479",
+      "Variable" : "PAY_4"
+    },
+    "rowNumber" : 4
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.301474187206",
+      "Variable" : "PAY_5"
+    },
+    "rowNumber" : 5
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.255488124782",
+      "Variable" : "PAY_6"
+    },
+    "rowNumber" : 6
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0662111809526",
+      "Variable" : "LIMIT_BAL"
+    },
+    "rowNumber" : 7
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0373459493356",
+      "Variable" : "BILL_AMT5"
+    },
+    "rowNumber" : 8
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0363144892937",
+      "Variable" : "BILL_AMT6"
+    },
+    "rowNumber" : 9
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0351366019645",
+      "Variable" : "BILL_AMT2"
+    },
+    "rowNumber" : 10
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0346304534448",
+      "Variable" : "BILL_AMT4"
+    },
+    "rowNumber" : 11
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0346118888676",
+      "Variable" : "BILL_AMT1"
+    },
+    "rowNumber" : 12
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0341525770649",
+      "Variable" : "BILL_AMT3"
+    },
+    "rowNumber" : 13
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0131278299486",
+      "Variable" : "PAY_AMT1"
+    },
+    "rowNumber" : 14
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0115905804107",
+      "Variable" : "EDUCATION"
+    },
+    "rowNumber" : 15
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00966938793074",
+      "Variable" : "PAY_AMT3"
+    },
+    "rowNumber" : 16
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00801488544241",
+      "Variable" : "AGE"
+    },
+    "rowNumber" : 17
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00784854304415",
+      "Variable" : "PAY_AMT2"
+    },
+    "rowNumber" : 18
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00770248849755",
+      "Variable" : "PAY_AMT6"
+    },
+    "rowNumber" : 19
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00762142690047",
+      "Variable" : "PAY_AMT5"
+    },
+    "rowNumber" : 20
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00656122491269",
+      "Variable" : "PAY_AMT4"
+    },
+    "rowNumber" : 21
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "BINARY",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00293404396408",
+      "Variable" : "SEX"
+    },
+    "rowNumber" : 22
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "6.49129428286E-4",
+      "Variable" : "MARRIAGE"
+    },
+    "rowNumber" : 23
+  } ],
+  "xInteger" : false,
+  "yInteger" : false
+}

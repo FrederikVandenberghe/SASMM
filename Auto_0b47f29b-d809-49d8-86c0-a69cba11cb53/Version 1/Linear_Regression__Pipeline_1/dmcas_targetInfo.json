@@ -1,0 +1,25 @@
+{
+  "product" : "DMCAS",
+  "project" : "14fb1692-fc82-4817-bd71-08dcaac02f77",
+  "target" : {
+    "name" : "",
+    "level" : "INTERVAL",
+    "format" : "",
+    "order" : "",
+    "label" : "",
+    "event" : "",
+    "SASJSONExport" : "1.0 PRETTY",
+    "SASTableData+DMCAS_TARGETLEVEL" : [ {
+      "_TYPE_" : "",
+      "resourceId" : "d2a8bf86-202e-48d0-90db-59570a8dbaa8",
+      "id" : "14fb1692-fc82-4817-bd71-08dcaac02f77",
+      "_predictedvar_" : "P_BlueBookPrice",
+      "_variable_" : "BlueBookPrice",
+      "_rawchar_" : "",
+      "_cfmt_" : "",
+      "_label_" : "Predicted: BlueBookPrice",
+      "_event_flag_" : "N",
+      "revision" : 0
+    } ]
+  }
+}

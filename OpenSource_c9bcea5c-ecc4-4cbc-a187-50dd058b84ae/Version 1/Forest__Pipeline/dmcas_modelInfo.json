@@ -1,0 +1,12 @@
+{
+  "scoreType" : "ds2MultiType",
+  "algorithm" : "Forest",
+  "algorithmI18N" : "forest.node.name.txt",
+  "enableRegistration" : "true",
+  "enableScoring" : "true",
+  "astores" : {
+    "scoreResources" : {
+      "resource1" : "_2ZVPHRAR0JTTBVVZ14WZNSY0P_AST"
+    }
+  }
+}
