@@ -1,0 +1,58 @@
+[
+  {
+    "level": "",
+    "name": "EM_CLASSIFICATION",
+    "length": 12,
+    "description": "Into: TARGET",
+    "type": "string"
+  },
+  {
+    "level": "",
+    "name": "EM_EVENTPROBABILITY",
+    "length": 8,
+    "description": "Predicted: TARGET\u003d1",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "EM_PROBABILITY",
+    "length": 8,
+    "description": "Probability of Classification",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "I_TARGET",
+    "length": 32,
+    "description": "Into: TARGET",
+    "type": "string"
+  },
+  {
+    "level": "",
+    "name": "P_TARGET0",
+    "length": 8,
+    "description": "Predicted: TARGET\u003d0",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "P_TARGET1",
+    "length": 8,
+    "description": "Predicted: TARGET\u003d1",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "_P_",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "_WARN_",
+    "length": 4,
+    "description": "Warnings",
+    "type": "string"
+  }
+]

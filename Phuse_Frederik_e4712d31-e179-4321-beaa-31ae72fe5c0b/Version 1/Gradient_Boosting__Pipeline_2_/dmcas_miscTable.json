@@ -1,0 +1,281 @@
+{
+  "creationTimeStamp" : "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp" : "0001-01-01T00:00:00Z",
+  "revision" : 0,
+  "name" : "dmcas_miscTable",
+  "version" : 0,
+  "order" : 0,
+  "parameterMap" : {
+    "_Cutoff_" : {
+      "label" : "Cutoff",
+      "length" : 8,
+      "order" : 1,
+      "parameter" : "_Cutoff_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_Cutoff_" ]
+    },
+    "_Event_" : {
+      "label" : "Event",
+      "length" : 256,
+      "order" : 5,
+      "parameter" : "_Event_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_Event_" ]
+    },
+    "_Response_" : {
+      "label" : "Response",
+      "length" : 10,
+      "order" : 4,
+      "parameter" : "_Response_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_Response_" ]
+    },
+    "_TestCount_" : {
+      "label" : "Test Frequency",
+      "length" : 8,
+      "order" : 9,
+      "parameter" : "_TestCount_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_TestCount_" ]
+    },
+    "_TestPct_" : {
+      "label" : "Test Percentage",
+      "length" : 8,
+      "order" : 12,
+      "parameter" : "_TestPct_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_TestPct_" ]
+    },
+    "_TrainCount_" : {
+      "label" : "Training Frequency",
+      "length" : 8,
+      "order" : 7,
+      "parameter" : "_TrainCount_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_TrainCount_" ]
+    },
+    "_TrainPct_" : {
+      "label" : "Training Percentage",
+      "length" : 8,
+      "order" : 10,
+      "parameter" : "_TrainPct_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_TrainPct_" ]
+    },
+    "_ValidateCount_" : {
+      "label" : "Validation Frequency",
+      "length" : 8,
+      "order" : 8,
+      "parameter" : "_ValidateCount_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_ValidateCount_" ]
+    },
+    "_ValidatePct_" : {
+      "label" : "Validation Percentage",
+      "length" : 8,
+      "order" : 11,
+      "parameter" : "_ValidatePct_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_ValidatePct_" ]
+    },
+    "_Value_" : {
+      "label" : "Value",
+      "length" : 16,
+      "order" : 6,
+      "parameter" : "_Value_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_Value_" ]
+    },
+    "_cutoffSource_" : {
+      "label" : "Cutoff Source",
+      "length" : 8,
+      "order" : 2,
+      "parameter" : "_cutoffSource_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_cutoffSource_" ]
+    },
+    "_targetName_" : {
+      "label" : "Target Name",
+      "length" : 256,
+      "order" : 3,
+      "parameter" : "_targetName_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_targetName_" ]
+    }
+  },
+  "data" : [ {
+    "dataMap" : {
+      "_Cutoff_" : "0.44",
+      "_Event_" : "           1",
+      "_Response_" : "Correct",
+      "_TestCount_" : "1489",
+      "_TestPct_" : "82.6762909495",
+      "_Value_" : "True Positive",
+      "_cutoffSource_" : "KS",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 1
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.44",
+      "_Event_" : "           1",
+      "_Response_" : "Incorrect",
+      "_TestCount_" : "312",
+      "_TestPct_" : "17.3237090505",
+      "_Value_" : "False Negative",
+      "_cutoffSource_" : "KS",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 2
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.44",
+      "_Event_" : "           0",
+      "_Response_" : "Correct",
+      "_TestCount_" : "1506",
+      "_TestPct_" : "83.6202109939",
+      "_Value_" : "True Negative",
+      "_cutoffSource_" : "KS",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 3
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.44",
+      "_Event_" : "           0",
+      "_Response_" : "Incorrect",
+      "_TestCount_" : "295",
+      "_TestPct_" : "16.3797890061",
+      "_Value_" : "False Positive",
+      "_cutoffSource_" : "KS",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 4
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.48",
+      "_Event_" : "           1",
+      "_Response_" : "Correct",
+      "_ValidateCount_" : "4304",
+      "_ValidatePct_" : "79.644707624",
+      "_Value_" : "True Positive",
+      "_cutoffSource_" : "KS",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 5
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.48",
+      "_Event_" : "           1",
+      "_Response_" : "Incorrect",
+      "_ValidateCount_" : "1100",
+      "_ValidatePct_" : "20.355292376",
+      "_Value_" : "False Negative",
+      "_cutoffSource_" : "KS",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 6
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.48",
+      "_Event_" : "           0",
+      "_Response_" : "Correct",
+      "_ValidateCount_" : "4651",
+      "_ValidatePct_" : "86.0658771281",
+      "_Value_" : "True Negative",
+      "_cutoffSource_" : "KS",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 7
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.48",
+      "_Event_" : "           0",
+      "_Response_" : "Incorrect",
+      "_ValidateCount_" : "753",
+      "_ValidatePct_" : "13.9341228719",
+      "_Value_" : "False Positive",
+      "_cutoffSource_" : "KS",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 8
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.5",
+      "_Event_" : "           1",
+      "_Response_" : "Correct",
+      "_TestCount_" : "1403",
+      "_TestPct_" : "77.9011660189",
+      "_TrainCount_" : "8596",
+      "_TrainPct_" : "79.541038216",
+      "_ValidateCount_" : "4238",
+      "_ValidatePct_" : "78.4233900814",
+      "_Value_" : "True Positive",
+      "_cutoffSource_" : "Default",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 9
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.5",
+      "_Event_" : "           1",
+      "_Response_" : "Incorrect",
+      "_TestCount_" : "398",
+      "_TestPct_" : "22.0988339811",
+      "_TrainCount_" : "2211",
+      "_TrainPct_" : "20.458961784",
+      "_ValidateCount_" : "1166",
+      "_ValidatePct_" : "21.5766099186",
+      "_Value_" : "False Negative",
+      "_cutoffSource_" : "Default",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 10
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.5",
+      "_Event_" : "           0",
+      "_Response_" : "Correct",
+      "_TestCount_" : "1569",
+      "_TestPct_" : "87.1182676291",
+      "_TrainCount_" : "9428",
+      "_TrainPct_" : "87.2397520126",
+      "_ValidateCount_" : "4714",
+      "_ValidatePct_" : "87.2316802369",
+      "_Value_" : "True Negative",
+      "_cutoffSource_" : "Default",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 11
+  }, {
+    "dataMap" : {
+      "_Cutoff_" : "0.5",
+      "_Event_" : "           0",
+      "_Response_" : "Incorrect",
+      "_TestCount_" : "232",
+      "_TestPct_" : "12.8817323709",
+      "_TrainCount_" : "1379",
+      "_TrainPct_" : "12.7602479874",
+      "_ValidateCount_" : "690",
+      "_ValidatePct_" : "12.7683197631",
+      "_Value_" : "False Positive",
+      "_cutoffSource_" : "Default",
+      "_targetName_" : "TARGET"
+    },
+    "rowNumber" : 12
+  } ],
+  "xInteger" : false,
+  "yInteger" : false
+}

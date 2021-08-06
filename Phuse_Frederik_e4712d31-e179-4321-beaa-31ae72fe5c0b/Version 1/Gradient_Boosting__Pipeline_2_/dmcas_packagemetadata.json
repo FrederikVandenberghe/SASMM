@@ -1,0 +1,132 @@
+{
+  "SASJSONExport" : "1.0 FMTCHARACTER",
+  "SASTableData+ARGUMENTS" : [ {
+    "name" : "Eyes",
+    "order" : 1,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 6
+  }, {
+    "name" : "Support",
+    "order" : 2,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 3
+  }, {
+    "name" : "x_axis_deg_s",
+    "order" : 3,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "x_axis_g",
+    "order" : 4,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "y_axis_deg_s",
+    "order" : 5,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "y_axis_g",
+    "order" : 6,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "z_axis_deg_s",
+    "order" : 7,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "z_axis_g",
+    "order" : 8,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "EM_CLASSIFICATION",
+    "order" : 9,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 12
+  }, {
+    "name" : "EM_EVENTPROBABILITY",
+    "order" : 10,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "EM_PROBABILITY",
+    "order" : 11,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "I_TARGET",
+    "order" : 12,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 32
+  }, {
+    "name" : "P_TARGET0",
+    "order" : 13,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "P_TARGET1",
+    "order" : 14,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "_P_",
+    "order" : 15,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "_WARN_",
+    "order" : 16,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 4
+  } ]
+}

@@ -1,0 +1,57 @@
+{
+  "product" : "DMCAS",
+  "project" : "e3479afc-d396-42ae-a787-b042adc0cb8d",
+  "target" : {
+    "name" : "TARGET",
+    "level" : "BINARY",
+    "format" : "",
+    "order" : "",
+    "label" : "",
+    "event" : "           1",
+    "SASJSONExport" : "1.0 PRETTY",
+    "SASTableData+DMCAS_TARGETLEVEL" : [ {
+      "_TYPE_" : "",
+      "resourceId" : "c5050a7a-8b1c-4cd7-b1b5-3e4db25b13ba",
+      "id" : "e3479afc-d396-42ae-a787-b042adc0cb8d",
+      "_predictedvar_" : "I_TARGET",
+      "_variable_" : "TARGET",
+      "_rawchar_" : "",
+      "_cfmt_" : "",
+      "_label_" : "Into: TARGET",
+      "_event_flag_" : "N",
+      "revision" : 0
+    }, {
+      "_TYPE_" : "",
+      "resourceId" : "aebc107d-19d1-4414-aa29-cbf440e137af",
+      "id" : "e3479afc-d396-42ae-a787-b042adc0cb8d",
+      "_predictedvar_" : "P_TARGET1",
+      "_variable_" : "TARGET",
+      "_index_" : 1,
+      "_freq_" : 18012,
+      "freqPercent" : 50,
+      "nmissPercent" : 50,
+      "_rawnum_" : 1,
+      "_rawchar_" : "",
+      "_cfmt_" : "           1",
+      "_label_" : "Predicted: TARGET=1",
+      "_event_flag_" : "Y",
+      "revision" : 0
+    }, {
+      "_TYPE_" : "",
+      "resourceId" : "4d6aab8c-517e-4320-8284-33b552b94db2",
+      "id" : "e3479afc-d396-42ae-a787-b042adc0cb8d",
+      "_predictedvar_" : "P_TARGET0",
+      "_variable_" : "TARGET",
+      "_index_" : 2,
+      "_freq_" : 18012,
+      "freqPercent" : 50,
+      "nmissPercent" : 50,
+      "_rawnum_" : 0,
+      "_rawchar_" : "",
+      "_cfmt_" : "           0",
+      "_label_" : "Predicted: TARGET=0",
+      "_event_flag_" : "N",
+      "revision" : 0
+    } ]
+  }
+}

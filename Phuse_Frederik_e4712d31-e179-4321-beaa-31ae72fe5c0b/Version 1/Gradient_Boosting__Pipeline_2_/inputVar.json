@@ -1,0 +1,58 @@
+[
+  {
+    "level": "binary",
+    "name": "Eyes",
+    "length": 6,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "binary",
+    "name": "Support",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "interval",
+    "name": "x_axis_deg_s",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "x_axis_g",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "y_axis_deg_s",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "y_axis_g",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "z_axis_deg_s",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "z_axis_g",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  }
+]

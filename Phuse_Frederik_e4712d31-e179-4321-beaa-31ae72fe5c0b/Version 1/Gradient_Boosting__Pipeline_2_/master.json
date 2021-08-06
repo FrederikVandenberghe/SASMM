@@ -1,0 +1,421 @@
+{
+  "creationTimeStamp" : null,
+  "modifiedTimeStamp" : null,
+  "createdBy" : null,
+  "modifiedBy" : null,
+  "version" : 2,
+  "name" : "Gradient Boosting (Pipeline 2)",
+  "modeler" : "Frederik.Vandenberghe@sas.com",
+  "function" : "classification",
+  "algorithm" : "gradboost",
+  "tool" : "Model Studio",
+  "toolVersion" : "V2021.1.3",
+  "scoreCodeType" : null,
+  "scoreCodeFile" : null,
+  "scoreCodeUri" : null,
+  "trainCodeType" : null,
+  "trainCodeFile" : null,
+  "trainCodeUri" : null,
+  "targetEvent" : "           1",
+  "sourceUri" : {
+    "name" : "Gradient Boosting",
+    "uri" : "/analyticsComponents/components/e6983492-884b-4dde-a4e1-82eaba589144",
+    "uriType" : "reference",
+    "mediaType" : "application/vnd.sas.analytics.component",
+    "contentType" : null
+  },
+  "sourceName" : null,
+  "candidateChampion" : true,
+  "nondeterministic" : false,
+  "datasourceUri" : {
+    "name" : "PHUSE_TRAIN_NC",
+    "uri" : "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/PHUSE_TRAIN_NC",
+    "uriType" : "reference",
+    "mediaType" : null,
+    "contentType" : null
+  },
+  "datasourceNotes" : null,
+  "principalID" : null,
+  "externalModelId" : "e6983492-884b-4dde-a4e1-82eaba589144",
+  "trainTableSummaryFile" : null,
+  "trainTableSummaryUri" : null,
+  "fitStatFile" : null,
+  "fitStatUri" : {
+    "name" : "dmcas_fitstat",
+    "uri" : "/files/files/6f87f5ff-8a22-43b6-9a3f-de0781ffb394",
+    "uriType" : "child",
+    "mediaType" : "application/vnd.sas.analytics.report+json",
+    "contentType" : null
+  },
+  "sasOptions" : "options VALIDMEMNAME=EXTEND VALIDVARNAME=ANY;\n",
+  "partitionLevels" : [ {
+    "variableName" : "_PartInd_",
+    "dataRole" : "train",
+    "type" : "partition",
+    "value" : "           1"
+  }, {
+    "variableName" : "_PartInd_",
+    "dataRole" : "validate",
+    "type" : "partition",
+    "value" : "           0"
+  }, {
+    "variableName" : "_PartInd_",
+    "dataRole" : "test",
+    "type" : "partition",
+    "value" : "           2"
+  } ],
+  "eventLevels" : [ {
+    "variableName" : "I_TARGET",
+    "eventValue" : ""
+  }, {
+    "variableName" : "P_TARGET1",
+    "eventValue" : "           1"
+  }, {
+    "variableName" : "P_TARGET0",
+    "eventValue" : "           0"
+  } ],
+  "interactions" : [ ],
+  "modelTransformation" : {
+    "inputVariables" : [ {
+      "name" : "Eyes",
+      "role" : "input",
+      "type" : "string",
+      "level" : "binary",
+      "label" : "",
+      "length" : 6,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "Support",
+      "role" : "input",
+      "type" : "string",
+      "level" : "binary",
+      "label" : "",
+      "length" : 3,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "x_axis_deg_s",
+      "role" : "input",
+      "type" : "numeric",
+      "level" : "interval",
+      "label" : "",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "x_axis_g",
+      "role" : "input",
+      "type" : "numeric",
+      "level" : "interval",
+      "label" : "",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "y_axis_deg_s",
+      "role" : "input",
+      "type" : "numeric",
+      "level" : "interval",
+      "label" : "",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "y_axis_g",
+      "role" : "input",
+      "type" : "numeric",
+      "level" : "interval",
+      "label" : "",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "z_axis_deg_s",
+      "role" : "input",
+      "type" : "numeric",
+      "level" : "interval",
+      "label" : "",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "z_axis_g",
+      "role" : "input",
+      "type" : "numeric",
+      "level" : "interval",
+      "label" : "",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    } ],
+    "outputVariables" : [ {
+      "name" : "EM_CLASSIFICATION",
+      "role" : "classification",
+      "type" : "string",
+      "level" : null,
+      "label" : "Into: TARGET",
+      "length" : 12,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "EM_EVENTPROBABILITY",
+      "role" : "prediction",
+      "type" : "numeric",
+      "level" : null,
+      "label" : "Predicted: TARGET=1",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "EM_PROBABILITY",
+      "role" : "prediction",
+      "type" : "numeric",
+      "level" : null,
+      "label" : "Probability of Classification",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "I_TARGET",
+      "role" : "classification",
+      "type" : "string",
+      "level" : null,
+      "label" : "Into: TARGET",
+      "length" : 32,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "P_TARGET0",
+      "role" : "prediction",
+      "type" : "numeric",
+      "level" : null,
+      "label" : "Predicted: TARGET=0",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "P_TARGET1",
+      "role" : "prediction",
+      "type" : "numeric",
+      "level" : null,
+      "label" : "Predicted: TARGET=1",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "_P_",
+      "role" : "input",
+      "type" : "numeric",
+      "level" : null,
+      "label" : "",
+      "length" : 8,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    }, {
+      "name" : "_WARN_",
+      "role" : "input",
+      "type" : "string",
+      "level" : null,
+      "label" : "Warnings",
+      "length" : 4,
+      "aggregation" : null,
+      "format" : "",
+      "transformationVariable" : false,
+      "transformation" : null
+    } ],
+    "steps" : [ {
+      "sequence" : 1,
+      "type" : "astore",
+      "code" : null,
+      "uri" : null,
+      "stepUri" : {
+        "name" : "_1QF84HD2IJ3MO1H3FWXNFXK6BT",
+        "uri" : "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_1QF84HD2IJ3MO1H3FWXNFXK6BT",
+        "uriType" : "child",
+        "mediaType" : null,
+        "contentType" : "astore"
+      },
+      "inputVariables" : [ ],
+      "outputVariables" : [ ]
+    } ]
+  },
+  "transformations" : [ ],
+  "trainInputs" : [ {
+    "name" : "x_axis_deg_s",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "x_axis_g",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "y_axis_deg_s",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "y_axis_g",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "z_axis_deg_s",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "z_axis_g",
+    "role" : "input",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "Eyes",
+    "role" : "input",
+    "type" : "string",
+    "level" : "binary",
+    "label" : "",
+    "length" : 6,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "Support",
+    "role" : "input",
+    "type" : "string",
+    "level" : "binary",
+    "label" : "",
+    "length" : 3,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "_PartInd_",
+    "role" : "partition",
+    "type" : "numeric",
+    "level" : "nominal",
+    "label" : "_PartInd_",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : null,
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "TARGET",
+    "role" : "target",
+    "type" : "numeric",
+    "level" : "binary",
+    "label" : "",
+    "length" : 8,
+    "aggregation" : null,
+    "format" : "",
+    "transformationVariable" : false,
+    "transformation" : null
+  }, {
+    "name" : "_dmIndex_",
+    "role" : "key",
+    "type" : "numeric",
+    "level" : "interval",
+    "label" : null,
+    "length" : 8,
+    "aggregation" : null,
+    "format" : null,
+    "transformationVariable" : true,
+    "transformation" : null
+  } ],
+  "modelNodeProperties" : [ {
+    "sequence" : 1,
+    "actionName" : "decisionTree.gbtreeTrain",
+    "content" : "{\n \"binOrder\": true,\n \"casOut\":\n  {\n   \"caslib\": \"CASUSER(Frederik.Vandenberghe@sas.com)\",\n   \"name\": \"_model_53a549d0-b2cb-8640-8a54-b00ce2a6489\",\n   \"replace\": true\n  },\n \"earlyStop\":\n  {\n   \"metric\": \"MCR\",\n   \"stagnation\": 5\n  },\n \"encodeName\": true,\n \"inputs\":   \n  [\n   {\n    \"name\": \"x_axis_deg_s\"\n   },\n   {\n    \"name\": \"x_axis_g\"\n   },\n   {\n    \"name\": \"y_axis_deg_s\"\n   },\n   {\n    \"name\": \"y_axis_g\"\n   },\n   {\n    \"name\": \"z_axis_deg_s\"\n   },\n   {\n    \"name\": \"z_axis_g\"\n   },\n   {\n    \"name\": \"Eyes\"\n   },\n   {\n    \"name\": \"Support\"\n   }  \n  ],\n \"lasso\": 0,\n \"leafSize\": 5,\n \"learningRate\": 0.1,\n \"maxBranch\": 2,\n \"maxLevel\": 5,\n \"mergeBin\": true,\n \"minUseInSearch\": 1,\n \"missing\": \"USEINSEARCH\",\n \"nBins\": 50,\n \"nominals\":   \n  [\n   {\n    \"name\": \"Eyes\"\n   },\n   {\n    \"name\": \"Support\"\n   },\n   {\n    \"name\": \"TARGET\"\n   }  \n  ],\n \"nominalSearch\":\n  {\n   \"maxCategories\": 128\n  },\n \"nTree\": 100,\n \"quantileBin\": true,\n \"ridge\": 1,\n \"saveState\":\n  {\n   \"name\": \"_DNGOB3MOZDU4DFX9F9860I81W_AST\",\n   \"replace\": true\n  },\n \"seed\": 12345,\n \"subSampleRate\": 0.5,\n \"table\":\n  {\n   \"caslib\": \"Analytics_Project_e3479afc-d396-42ae-a787-b042adc0cb8d\",\n   \"name\": \"_INPUT_DNGOB3MOZDU4DFX9F9860I81W\",\n   \"where\": \"STRIP(PUT(_PartInd_, BEST.) ) =\\\"1\\\" and TARGET NE .\"\n  },\n \"target\": \"TARGET\",\n \"validTable\":\n  {\n   \"caslib\": \"Analytics_Project_e3479afc-d396-42ae-a787-b042adc0cb8d\",\n   \"name\": \"_INPUT_DNGOB3MOZDU4DFX9F9860I81W\",\n   \"where\": \"STRIP(PUT(_PartInd_, BEST.) ) =\\\"0\\\" and TARGET NE .\"\n  },\n \"varImp\": true\n}",
+    "contentUri" : null,
+    "modelTableUri" : null
+  } ],
+  "dataPlanUri" : null,
+  "dataPlanSnapShot" : null,
+  "rocDataUri" : {
+    "name" : "dmcas_roc",
+    "uri" : "/files/files/f36b296b-55bd-441d-bf8d-efdb3e5f2e21",
+    "uriType" : "child",
+    "mediaType" : "application/vnd.sas.analytics.report+json",
+    "contentType" : null
+  },
+  "liftDataUri" : {
+    "name" : "dmcas_lift",
+    "uri" : "/files/files/03dae7c5-2e6d-4346-a4e5-fbb060e9a774",
+    "uriType" : "child",
+    "mediaType" : "application/vnd.sas.analytics.report+json",
+    "contentType" : null
+  },
+  "dataUris" : null,
+  "textLanguage" : null
+}
